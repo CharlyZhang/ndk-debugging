@@ -11,6 +11,7 @@ android {
 
         ndk {
             moduleName "libgl2jni"
+            stl "gnustl_static"
             ldLibs "log"
             ldLibs "GLESv2"
         }
